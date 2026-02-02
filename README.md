@@ -69,4 +69,15 @@ This project demonstrates a fine-tuned ViT5 model for Vietnamese text summarizat
 - `main.py`: FastAPI backend and model inference logic.
 - `templates/index.html`: Simple frontend UI.
 - `models/`: Directory where models are cached locally.
+  - **`vit5-base/`**: Base pre-trained model files.
+    - `config.json`
+    - `generation_config.json`
+    - `model.safetensors`
+    - `special_tokens_map.json`
+    - `spiece.model`
+    - `tokenizer.json`
+    - `tokenizer_config.json`
+  - **`vit5-fast/`**: Fine-tuned Adapter (LoRA) files.
+    - `adapter_config.json`
+    - `adapter_model.safetensors`
 - `download_models.py`: Helper script to download models.
